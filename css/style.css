@@ -205,14 +205,6 @@ section{
     text-align: center;
 }
 
-/*.home{
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    background:url(../images/home-img.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
-}*/
 
 .home .content{
     max-width: 60rem;
@@ -571,7 +563,6 @@ section{
 
 
 
-/* media queries  */
 @media (max-width:991px){
 
     html{
@@ -586,13 +577,23 @@ section{
         padding:2rem;
     }
 
-    .container {
-        flex-direction: column;
-        align-items: center;
-    }
     .container img{
+
         display: none;
+
     }
+
+    #home p,h1{
+
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 30vh;
+        
+        
+    }
+   
+
 }
 
 @media (max-width:768px){
@@ -641,15 +642,6 @@ section{
     }
 
 }
-
-@media (max-width:450px){
-
-    html{
-        font-size: 50%;
-    }
-
-}
-
 .home {
     display: flex;
     align-items: center;
@@ -690,8 +682,10 @@ section{
    font-size: 2rem;
    margin: 2rem;
    display: flex;
-  
+
 }
+
+
 #btnTopo {
     display: none;
     position: fixed;
